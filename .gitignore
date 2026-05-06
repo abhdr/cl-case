@@ -1,0 +1,68 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+*.original
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+nbproject/private/
+nb-configuration.xml
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Env / secrets
+.env
+.env.local
+application-local.yml
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build outputs
+out/
+bin/
+build/
+
+# Test reports
+**/test-output/
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco/
